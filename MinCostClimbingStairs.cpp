@@ -18,3 +18,24 @@ public:
 
 //Time Complexity: O(n)
 //LeetCode: https://leetcode.com/problems/min-cost-climbing-stairs/
+
+//________________________________________//
+//eKuG
+
+class Solution {
+public:
+    int minCostClimbingStairs(vector<int>& cost) {
+        if(cost.size() == 3){
+            int a= cost[0]+cost[2];
+            return min(cost[1],a);
+        }
+        else{
+            
+            for(int i = 2; i<cost.size();i++){
+                cost[i]+=min(cost[i-1],cost[i-2]);
+            }
+            
+        }
+        return min(cost[cost.size()-1],cost[cost.size()-2]);
+    }
+};
