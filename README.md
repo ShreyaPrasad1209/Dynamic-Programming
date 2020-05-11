@@ -7,4 +7,5 @@
 
 [Difference between Subarray, Subsequence and Subset](https://www.techiedelight.com/difference-between-subarray-subsequence-subset/)
 
+[Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns)
 
