@@ -9,3 +9,5 @@
 
 [Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns)
 
+[Must do DP questions category wise](https://leetcode.com/discuss/study-guide/1050391/Must-do-Dynamic-programming-Problems-Category-wise)
+
